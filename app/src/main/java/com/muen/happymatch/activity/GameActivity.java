@@ -59,6 +59,11 @@ public class GameActivity extends AppCompatActivity {
     private TextView mTvTimeNumber;
 
     /**
+     * 返回键
+     */
+    private TextView mTvBack;
+
+    /**
      * 存放图标数据
      */
     private List<GameItem> mListGameItems;
@@ -249,6 +254,13 @@ public class GameActivity extends AppCompatActivity {
 
         mTvScoreNumber = findViewById(R.id.tv_score_number);
         mTvTimeNumber = findViewById(R.id.tv_time_number);
+        mTvBack = findViewById(R.id.tv_back);
+        mTvBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
     }
 
