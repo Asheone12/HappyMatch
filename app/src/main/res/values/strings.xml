@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">消消乐</string>
     <string name="game_title">消消乐</string>
-    <string name="time_title">时间还剩: </string>
+    <string name="time_title">倒计时: </string>
     <string name="time_number">00:00</string>
     <string name="score_title">分数: </string>
     <string name="score_number">0</string>

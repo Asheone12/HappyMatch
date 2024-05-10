@@ -10,7 +10,7 @@ public interface Constant {
     /**
      * 每个游戏项有多宽
      */
-    int GAME_ITEM_WIDTH = 50;
+    int GAME_ITEM_WIDTH = 40;
 
     /**
      * 游戏项的种类有多少种
