@@ -21,7 +21,6 @@ public class GameApplication extends Application {
         MMKVUtil.GAME_MODE_TIME_HIGHEST_SCORE_NUMBER = MMKV.defaultMMKV().getInt(MMKVUtil.KEY_GAME_MODE_TIME_HIGHEST_SCORE_NUMBER, 0);
         MMKVUtil.GAME_MODE_PROPERTY_HIGHEST_SCORE_NUMBER = MMKV.defaultMMKV().getInt(MMKVUtil.KEY_GAME_MODE_PROPERTY_HIGHEST_SCORE_NUMBER, 0);
 
-        SoundPoolUtil.initSoundPool(this);
     }
 
 }
