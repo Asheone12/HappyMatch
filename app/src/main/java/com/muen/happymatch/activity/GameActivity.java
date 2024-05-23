@@ -576,8 +576,8 @@ public class GameActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart() {
-        super.onStart();
+    protected void onResume() {
+        super.onResume();
         SoundPoolUtil.resumeAll();
     }
 
